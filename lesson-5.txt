@@ -1,0 +1,35 @@
+// 1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì? 
+Cấu trúc DOM cơ bản của 1 trang web bao gồm các thẻ 
+1. <!DOCTYPE html>
+2. <html>: Phần tử gốc bao bọc toàn bộ nội dung trang web
+3. <head>
+4. <body>: Chứa toàn bộ nội dung hiển thị trong trang web
+Trong đó các thẻ HTML thường gặp: 
+- <div> (viết tắt của divide): dùng để chia các khối trong trang web
+- <h1></h1> đến <h6></h6> (viết tắt của heading): dùng để tạo ra các header phân cấp
+theo thứ tự từ lớn đến bé.
+- <form></form>: dùng để chứa một form thông tin.
+- input: text, email, radio, checkbox, file, color, range, date
+- textarea: hiển thị ô input, dạng to.
+- radio button: tạo nút chọn một (radio).
+- checkbox: tạo nút chọn nhiều lựa chọn (checkbox).
+- list và dropdown (list - selection): hiển thị danh sách hoặc menu thả xuống.
+- button: tạo nút bấm.
+- table: hiển thị bảng dữ liệu.
+  + thead = table heading
+         tr = table row = 1 dòng
+         th: table heading: text in đậm
+  + tbody
+        tr -> td = table data
+- Thẻ date picker: tạo bộ chọn ngày.
+- Thẻ slider: tạo thanh trượt.
+- Thẻ iframe: hiển thị nội dung từ một trang web khác bên trong trang hiện tại
+
+// 2. Hãy mô tả cấu trúc html của 1 bảng (table) 
+Cấu trúc html của 1 bảng bao gồm
+- table: hiển thị bảng dữ liệu - thẻ bao toàn bộ bảng
+  + thead = table heading
+         tr = table row = 1 dòng
+         th: table heading: text in đậm
+  + tbody
+        tr -> td = table data
